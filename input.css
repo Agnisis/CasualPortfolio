@@ -1,3 +1,31 @@
 *{
     font-family: 'Exo 2', sans-serif; 
 }
+.text-outline {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: currentColor;
+    -webkit-text-stroke-width: .012em;
+}
+
+.text-outline-hover {
+    position: relative;
+
+    &::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        max-width: 0;
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        content: attr(data-text);
+        transition: max-width .8s cubic-bezier(.22, .61, .36, 1);
+        -webkit-text-fill-color: currentColor;
+    }
+
+    &:hover {
+        &::before {
+            max-width: 100%;
+        }
+    }
+}

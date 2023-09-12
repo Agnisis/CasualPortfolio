@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Agnisis Dutta</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="icon" href="/images/favicon.ico">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="./input.css">
@@ -14,36 +15,38 @@
 
 </head>
 
-<body class="container mx-auto bg-gradient-to-r from-black via-indigo-300 to-black">
+<body class="container mx-auto bg-gradient-to-r from-indigo-500 via-indigo-300 to-indigo-500">
 
- <div class="flex items-center justify-between mx-auto p-6 text-white h-full">
+  <div class="flex items-center justify-between mx-auto p-6 text-white h-full">
     <h1 class="text-4xl font-semibold mx-7 hover:text-lime-400 cursor-pointer ease-in duration-300">Portfolio</h1>
     <ul class="flex gap-5 mr-5 text-2xl ease-in duration-300">
-        <li><a href="#section-home" class="nav-link hover:text-lime-400 hover:text-3xl ease-in duration-300">Home</a></li>
-        <li><a href="#section-about" class="nav-link hover:text-lime-400 hover:text-3xl ease-in duration-300">About Me</a></li>
-        <li><a href="#section-projects" class="nav-link hover:text-lime-400 hover:text-3xl ease-in duration-300">Projects</a></li>
-        <li><a href="#section-skills" class="nav-link hover:text-lime-400 hover:text-3xl ease-in duration-300">Skills</a></li>
-        <li><a href="#section-contact" class="nav-link hover:text-lime-400 hover:text-3xl ease-in duration-300">Contact Me</a></li>
+      <li><a href="#section-home" class="nav-link hover:text-lime-400 hover:text-3xl ease-in duration-300">Home</a></li>
+      <li><a href="#section-about" class="nav-link hover:text-lime-400 hover:text-3xl ease-in duration-300">About Me</a>
+      </li>
+      <li><a href="#section-projects"
+          class="nav-link hover:text-lime-400 hover:text-3xl ease-in duration-300">Projects</a></li>
+      <li><a href="#section-skills" class="nav-link hover:text-lime-400 hover:text-3xl ease-in duration-300">Skills</a>
+      </li>
+      <li><a href="#section-contact" class="nav-link hover:text-lime-400 hover:text-3xl ease-in duration-300">Contact
+          Me</a></li>
     </ul>
-</div>
+  </div>
 
 
 
-  <section class="py-16" id="section-home">
-    <div class="container mx-auto px-4 flex flex-col items-center justify-center">
-      <div class="max-w-80 w-80 h-80 rounded-full mt-8 border-8 border-indigo-600 shadow-lg overflow-hidden">
-        <img src="./images/WhatsApp Image 2023-02-15 at 10.44.57 PM.jpeg" alt="Profile Picture"
-          class="w-full h-full object-cover cursor-pointer">
+  <section class="py-16 font-mono text-white" id="section-home">
+    <div class="container mx-auto px-4 flex justify-center items-center">
+    
+      <div class="w-1/2">
+      <h1 class="text-6xl font-bold">Hi 👋</h1>
+      <h1 class="text-outline text-outline-hover cursor-pointer text-6xl" data-text="I'm Agnisis Dutta">I'm Agnisis Dutta</h1>
+      <h1 class="py-4 text-3xl font-semibold">I am into <span class="text-indigo-600 ">Fullstack Web Development</span></h1>
+      <p class="text-xl text-gray-200"> I'm passionate about creating beautiful, functional, and user-friendly websites and applications, and I'm constantly pushing myself to learn and grow as a developer. Love building full-stack clones and side projects.</p>
       </div>
-      <div class="text-center mt-8">
-        <h1 class="text-4xl md:text-5xl my-2 md:my-6 pt-5 hover:opacity-75">
-          Hi, I am <span
-            class="text-5xl md:text-6xl text-blue-800 hover:text-black hover:tracking-widest cursor-pointer delay-150 ease-in duration-200">Agnisis
-            Dutta</span>
-        </h1>
-        <h3 class="text-2xl md:text-3xl text-orange-500 font-medium font-serif my-2 md:py-2">
-          Fullstack Web Developer
-        </h3>
+        <div
+        class="max-w-80 w-80 h-80 rounded-full mt-8 border-8 hover:border-lime-400 ease-in duration-300 shadow-lg overflow-hidden hover:shadow-4xl">
+        <img src="./images/WhatsApp Image 2023-02-15 at 10.44.57 PM.jpeg" alt="Profile Picture"
+          class="w-full h-full object-cover cursor-pointer ">
       </div>
     </div>
   </section>
@@ -53,30 +56,26 @@
 
 
   <section class="mx-5 mt-5 p-8 cursor-pointer text-white rounded-2xl " id="section-about">
-    <h1 class="text-6xl text-indigo-500 hover:text-red-600 ease-in duration-300 p-7 m-8 font-serif underline decoration-wavy w-1/4">
+    <h1
+      class="text-6xl text-white hover:text-lime-400 ease-in duration-300 p-7 m-8 font-serif underline decoration-wavy w-1/4">
       About Me
     </h1>
 
     <div class="flex">
-      <img class="w-2/4 rounded-l-xl border-4 border-white" src="./images/Screenshot 2023-07-30 154318.jpg"
-        alt="Profile Picture">
-      <div class="bg-white text-gray-700 text-2xl p-9 rounded-r-xl">
-        <p class="text-justify">
-          <li>A passionate Engineer having the urge to learn new skills and technologies. </li>
-          <li> I am proficient in <span class="text-3xl text-blue-900 hover:text-green-500 italic">C++</span> programming along with Data Structures and Algorithms in C++ and Java.
-          <li> Currently learning <span class="text-3xl text-blue-900 hover:text-indigo-500 italic">Fullstack web
-              Development</span> and
-            <span class="text-3xl text-blue-900 hover:text-indigo-500 italic">Machine Learning</span>.
-          </li>
-          <li> I have a keen interest in Cloud technologies and sound knowledge of DBMS, Operating Systems, and Computer
-            Networks. </li>
-          <li> I also love to work on Robotics and IoT Projects.</li>
+      <img class="w-2/4 rounded-l-xl border-4 border-white hover:border-gray-200"
+        src="./images/Screenshot 2023-07-30 154318.jpg" alt="Profile Picture">
+      <div class="bg-white text-gray-700 text-2xl p-9 rounded-r-xl hover:bg-gray-200">
+        <p class="text-center mt-10 ">
+          B.Tech ECE undergrad from Asansol Engineering College.I'm a quick learner and love to create efficient,
+          scalable, and user-friendly solutions that solve real-world problems.Proficient in C++ & Java programming
+          along with DSA.I am into Fullstack Web Development,Machine Learning & Devops.Have decent knowledge in
+          Operating Systems,Databases and Computer Networks.Also interested to work on Robotics and IOT Projects.Love to
+          Play Games and Bikes are ❤️‍🔥.
+
         </p>
       </div>
     </div>
   </section>
-
-
 
 
 
@@ -87,7 +86,7 @@
 
     <div class="">
       <h1
-        class="text-6xl text-indigo-500 hover:text-red-600 ease-in duration-300 p-7 m-8 font-serif underline decoration-wavy w-1/4">
+        class="text-6xl text-white hover:text-lime-400 ease-in duration-300 p-7 m-8 font-serif underline decoration-wavy w-1/4">
         Projects</h1>
 
     </div>
@@ -98,11 +97,12 @@
       <div class="flex gap-3 p-3 m-3">
 
 
-        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div
+          class="w-7/12 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-2xl">
           <a href="https://agnisis.github.io/cara_1.0/">
             <img class="rounded-t-lg" src="./images/projects/cara.png" alt="" />
           </a>
-          <div class="p-5">
+          <div class="p-5 pt-0">
             <a href="https://agnisis.github.io/cara_1.0/">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-500 dark:text-white">Cara Ecommerce</h5>
             </a>
@@ -113,7 +113,8 @@
         </div>
 
 
-        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
+        <div
+          class="w-7/12 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-2xl">
           <a href="https://github.com/Agnisis/wassup" class="flex justify-center">
             <img class="rounded-t-lg h-80 w-80" src="./images/projects/chatbox.PNG" alt="" />
           </a>
@@ -130,7 +131,8 @@
         </div>
 
 
-        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div
+          class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-2xl">
           <a href="https://agnisis.github.io/Manage/">
             <img class="rounded-t-lg" src="./images/projects/manage.PNG" alt="" />
           </a>
@@ -145,7 +147,8 @@
         </div>
 
 
-        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div
+          class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-2xl">
           <a href="https://agnisis.github.io/MovieMania/">
             <img class="rounded-t-lg" src="./images/projects/moviemania.PNG" alt="" />
           </a>
@@ -174,9 +177,10 @@
 
       <div class="flex gap-3 p-3 m-3 ">
 
-        <div class="w-3/6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div
+          class="w-7/12 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-2xl">
           <a href="https://pizzaario.onrender.com/">
-            <img class="rounded-t-lg h-4/6 w-72" src="./images/projects/Pizzaario.PNG" alt="" />
+            <img class="rounded-t-lg h-4/6 w-92" src="./images/projects/Pizzaario.PNG" alt="" />
           </a>
           <div class="p-5">
             <a href="https://pizzaario.onrender.com/">
@@ -190,7 +194,8 @@
         </div>
 
 
-        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div
+          class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-2xl">
           <a href="https://github.com/Agnisis/taskmate">
             <img class="rounded-t-lg" src="./images/projects/Taskmate.PNG" alt="" />
           </a>
@@ -199,13 +204,15 @@
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-500 dark:text-white">TaskMate</h5>
             </a>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Task Manager App to add and delete task with
-              <span class="text-indigo-500 font-bold">React.js</span> with Use of Local Storage.</p>
+              <span class="text-indigo-500 font-bold">React.js</span> with Use of Local Storage.
+            </p>
 
           </div>
         </div>
 
 
-        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div
+          class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-2xl">
           <a href="https://agnisis.github.io/Tutmaster/">
             <img class="rounded-t-lg" src="./images/projects/tutmaster.PNG" alt="" />
           </a>
@@ -221,7 +228,8 @@
 
 
 
-        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div
+          class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-2xl">
           <a href="https://agnisis.github.io/weatherApp/">
             <img class="rounded-t-lg" src="./images/projects/weather.PNG" alt="" />
           </a>
@@ -231,7 +239,8 @@
             </a>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Web App To Find Weather of a Location using
               <span class="text-indigo-500 font-bold">Weather API</span> and <span
-                class="text-indigo-500 font-bold">Javascript</span>.</p>
+                class="text-indigo-500 font-bold">Javascript</span>.
+            </p>
 
           </div>
         </div>
@@ -249,7 +258,7 @@
 
     <div class="">
       <h1
-        class="text-6xl text-indigo-500 hover:text-red-600 ease-in duration-300 p-7 m-8 font-serif underline decoration-wavy w-1/4">
+        class="text-6xl text-white hover:text-lime-400 ease-in duration-300 p-7 m-8 font-serif underline decoration-wavy w-1/4">
         Skills</h1>
 
     </div>
@@ -381,7 +390,7 @@
   <section class="m-5 p-8 cursor-pointer   rounded-2xl" id="section-contact">
     <div class="">
       <h1
-        class="text-6xl text-indigo-500 hover:text-red-600 ease-in duration-300 p-7 m-8 font-serif underline decoration-wavy w-2/4">
+        class="text-6xl text-white hover:text-lime-400 ease-in duration-300 p-7 m-8 font-serif underline decoration-wavy w-2/4">
         Contact Me</h1>
 
     </div>
@@ -420,7 +429,7 @@
           </div>
 
           <button
-            class="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-sky-500 rounded-lg hover:bg-cyan-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-75">
+            class="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-indigo-400 rounded-lg hover:bg-sky-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-75">
             Send message
           </button>
         </form>
@@ -437,9 +446,9 @@
   <footer class="text-center text-white  mx-5 p-8 rounded-t-2xl">
     <div class="container px-6 pt-6 ">
       <div class="mb-6 flex justify-center">
-        
+
         <a href="https://www.linkedin.com/in/agnisis-dutta-882943202/" type="button"
-          class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+          class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 hover:border-lime-400"
           data-te-ripple-init data-te-ripple-color="light">
           <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto h-full w-4" fill="currentColor" viewBox="0 0 24 24">
             <path
@@ -448,7 +457,7 @@
         </a>
 
         <a href="https://github.com/Agnisis" type="button"
-          class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+          class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 hover:border-lime-400"
           data-te-ripple-init data-te-ripple-color="light">
           <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto h-full w-4" fill="currentColor" viewBox="0 0 24 24">
             <path
@@ -459,7 +468,7 @@
     </div>
 
     <!--Copyright section-->
-    <div class="py-4 text-center rounded-xl">
+    <div class="py-4 text-center rounded-xl hover:text-gray-800 cursor-pointer">
       © 2023 Copyright:
       <a class="text-whitehite" href="">Agnisis Dutta</a>
     </div>
@@ -469,24 +478,24 @@
   <script>
 
 
-   document.addEventListener("DOMContentLoaded", () => {
-    // Get all the links with the "nav-link" class
-    const listOfLinks = document.querySelectorAll(".nav-link");
+    document.addEventListener("DOMContentLoaded", () => {
+      // Get all the links with the "nav-link" class
+      const listOfLinks = document.querySelectorAll(".nav-link");
 
-    // Loop over all the links
-    listOfLinks.forEach(function (link) {
+      // Loop over all the links
+      listOfLinks.forEach(function (link) {
         // Listen for a click
         link.addEventListener('click', (event) => {
-            event.preventDefault(); // Prevent the default link behavior
-            const targetId = link.getAttribute("href").substring(1); // Get the target ID
+          event.preventDefault(); // Prevent the default link behavior
+          const targetId = link.getAttribute("href").substring(1); // Get the target ID
 
-            // Scroll to the target section with smooth behavior
-            document.getElementById(targetId).scrollIntoView({
-                behavior: 'smooth'
-            });
+          // Scroll to the target section with smooth behavior
+          document.getElementById(targetId).scrollIntoView({
+            behavior: 'smooth'
+          });
         });
+      });
     });
-});
 
   </script>
 
